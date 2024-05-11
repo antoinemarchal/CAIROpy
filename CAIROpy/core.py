@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 
 
-class cCAIRO(object):
+class CAIRO(object):
     def __init__(self, cube, hdr=None):
-        super(cCAIRO, self).__init__()
+        super(CAIRO, self).__init__()
         self.cube = cube
         self.hdr = hdr if hdr is not None else None
 

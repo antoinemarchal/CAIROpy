@@ -1,1 +1,1 @@
-from .core import cCAIRO
+from .core import CAIRO
