@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 
 
-class CAIRO(object):
+class cCAIRO(object):
     def __init__(self, cube, hdr=None):
         super(CAIRO, self).__init__()
         self.cube = cube
