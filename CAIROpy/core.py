@@ -8,7 +8,7 @@ from astropy.io import fits
 
 class cCAIRO(object):
     def __init__(self, cube, hdr=None):
-        super(CAIRO, self).__init__()
+        super(cCAIRO, self).__init__()
         self.cube = cube
         self.hdr = hdr if hdr is not None else None
 
