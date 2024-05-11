@@ -175,7 +175,7 @@ if __name__ == '__main__':
     filename_noise = path + "N5236_cropped_subcube_rms.fits"
     filename_init_spec = path + "N5236_input.csv"
     filename_lsf = path + "N5236_lsf.csv"
-    n_gauss = 6.
+    n_gauss = 6
     lambda_amp = 10.
     lambda_mu = 10.
     lambda_sig = 10.
